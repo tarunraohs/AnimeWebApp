@@ -1,0 +1,22 @@
+.input{
+    border: 0px solid white;
+    border-radius: 30px; 
+    width: 18rem;
+    height: 3rem; 
+    text-align: center;
+}
+
+.img{
+    width: 12rem;
+    height: 12rem; 
+    border-radius: 10px; 
+} 
+
+
+@media screen and (max-width: 768px){
+    .img{
+        width: 18rem;
+        margin: 25px;
+    } 
+    
+}

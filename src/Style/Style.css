@@ -1,0 +1,93 @@
+.site-header {
+    background-color: transparent !important;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    max-width: 100px;
+    max-height: 40vh;
+    border-radius: 50%;
+}
+
+.desktop-nav {
+    background-color: transparent !important;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desktop-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.desktop-nav li {
+    margin-right: 40px;
+}
+
+.desktop-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* User Actions (Watchlist, Favorites, Search) */
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.user-actions input[type="text"] {
+    padding: 5px;
+    margin-right: 40px;
+    /* Adjust spacing between search bar and links */
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    /* Adjust the width of the search bar */
+}
+
+.user-actions a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+    /* Adjust spacing between links */
+} 
+
+.nav-2{
+    display: none;
+}
+.search-2{
+    display: none;
+}
+
+/* Adjust styles for smaller screens if needed */
+@media screen and (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    } 
+    .nav-2{
+        display: block; 
+    }
+    .logo-container{
+        display: flex;
+        gap: 200px;
+    }
+    .search-2{
+        display: block;
+    }
+}
